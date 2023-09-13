@@ -3,7 +3,6 @@ package main
 import "fmt"
 func main() {
 
-var a int =26
-fmt.Println("Value of a:"+a)
-
+var a,b int =26 , 45
+fmt.Println(a+b)
 }
