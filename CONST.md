@@ -1,9 +1,10 @@
 package main
-import "fmt"
+import ("fmt"
+"math")
 
 const pi :=3.14
 func main() {
-r:=990.34
-area :=pie * r * r
+var r float64 :=990.34
+area :=pi * r * r
 fmt.Println(area)
 }
